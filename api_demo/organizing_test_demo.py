@@ -8,7 +8,7 @@ class Widget(object):
     def __init__(self, name):
         self.name = name
         self.width = 50
-        self.height = 40
+        self.height =40
 
     def size(self):
         """
