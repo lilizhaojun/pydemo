@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c281bc-9386-49f1-ad77-883b322c2c5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pydemo.iml" afterPath="$PROJECT_DIR$/.idea/pydemo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appium_demo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appium_demo/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawel_demo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawel_demo/demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crawel_demo/demo_object.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_demo/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_demo/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_demo/organizing_test_demo.py" afterPath="$PROJECT_DIR$/api_demo/organizing_test_demo.py" />
     </list>
@@ -24,57 +29,62 @@
     <SUITE FILE_PATH="coverage/pydemo$Unittests_for_api_demo_pyunit_demo_TestStringMethds_test_upper.coverage" NAME="Unittests for api_demo.pyunit_demo.TestStringMethds.test_upper Coverage Results" MODIFIED="1517643255305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/pydemo$Unittests_for_api_demo_pyunit_demo_TestStringMethds_tearDown.coverage" NAME="Unittests for api_demo.pyunit_demo.TestStringMethds.tearDown Coverage Results" MODIFIED="1517643318948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Unnamed">
+      <favorite_root url="file://$APPLICATION_CONFIG_DIR$/scratches/config.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="caculate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demopa/caculate.py">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appium_demo/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="http_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_demo/http_demo.py">
+      <file leaf-file-name="qrcode_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demopa/qrcode_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="209">
+              <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawel_demo/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="46" />
               <folding>
-                <element signature="e#30#41#0" expanded="true" />
+                <element signature="e#118#133#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyunit_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_demo/pyunit_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="47" column="22" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="47" selection-end-column="22" />
-              <folding>
-                <element signature="e#20#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="organizing_test_demo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api_demo/organizing_test_demo.py">
+      <file leaf-file-name="demo_object.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawel_demo/demo_object.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding />
+              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+              <folding>
+                <element signature="e#150#165#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyunit_report_demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_demo/pyunit_report_demo.py">
+      <file leaf-file-name="io_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demopa/io_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1075">
-              <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+            <state relative-caret-position="-300">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,6 +95,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Ini" />
+        <option value="XML" />
         <option value="Python Script" />
       </list>
     </option>
@@ -101,6 +114,17 @@
         <option value="$PROJECT_DIR$/api_demo/pyunit_demo.py" />
         <option value="$PROJECT_DIR$/api_demo/pyunit_report_demo.py" />
         <option value="$PROJECT_DIR$/api_demo/organizing_test_demo.py" />
+        <option value="$PROJECT_DIR$/django_demo.py" />
+        <option value="$PROJECT_DIR$/django_demo/test.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.ini" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+        <option value="$PROJECT_DIR$/api_demo/test.html" />
+        <option value="$PROJECT_DIR$/django_demo/test2.py" />
+        <option value="$PROJECT_DIR$/django_demo/mytest.py" />
+        <option value="$PROJECT_DIR$/appium_demo/test.py" />
+        <option value="$PROJECT_DIR$/crawel_demo/demo.py" />
+        <option value="$PROJECT_DIR$/crawel_demo/demo_object.py" />
       </list>
     </option>
   </component>
@@ -142,20 +166,47 @@
             <path>
               <item name="pydemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="pydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="api_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="crawel_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="pydemo" type="cbb8eebc:String" user="pydemo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="pydemo" type="cbb8eebc:String" user="pydemo" />
+              <item name="django_demo" type="cbb8eebc:String" user="django_demo" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Ini&#10;HTML" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,22 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pyunit_report_demo">
-    <configuration name="Unittests for api_demo.pyunit_demo.TestStringMethds.tearDown" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pydemo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;api_demo.pyunit_demo.TestStringMethds.tearDown&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
+  <component name="RunManager" selected="Python.demo_object">
     <configuration name="Unittests for api_demo.pyunit_demo.TestStringMethds.test_baidu_api" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,21 +249,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/api_demo/organizing_test_demo.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in pyunit_demo.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pydemo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/api_demo/pyunit_demo.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -369,6 +390,42 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawel_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawel_demo/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="demo_object" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawel_demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pydemo" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawel_demo/demo_object.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="pyunit_report_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,19 +445,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in pyunit_demo.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for api_demo.pyunit_demo.TestStringMethds.tearDown" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for api_demo.pyunit_demo.TestStringMethds.test_baidu_api" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in organizing_test_demo.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.pyunit_report_demo" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for api_demo.pyunit_demo.TestStringMethds.test_baidu_api" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in organizing_test_demo.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.pyunit_report_demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python.demo" />
+      <item index="4" class="java.lang.String" itemvalue="Python.demo_object" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.pyunit_report_demo" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in organizing_test_demo.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for api_demo.pyunit_demo.TestStringMethds.test_baidu_api" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in pyunit_demo.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for api_demo.pyunit_demo.TestStringMethds.tearDown" />
+        <item index="0" class="java.lang.String" itemvalue="Python.demo_object" />
+        <item index="1" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in organizing_test_demo.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pyunit_report_demo" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for api_demo.pyunit_demo.TestStringMethds.test_baidu_api" />
       </list>
     </recent_temporary>
   </component>
@@ -418,12 +475,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_api_demo_pyunit_demo_TestStringMethds_tearDown - 2018.02.03 at 15h 35m 19s.xml">
-      <configuration name="Unittests for api_demo.pyunit_demo.TestStringMethds.tearDown" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_api_demo_pyunit_demo_TestStringMethds_test_baidu_api - 2018.02.03 at 15h 38m 27s.xml">
-      <configuration name="Unittests for api_demo.pyunit_demo.TestStringMethds.test_baidu_api" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_api_demo_pyunit_demo_TestStringMethds_test_upper - 2018.02.03 at 15h 34m 15s.xml">
       <configuration name="Unittests for api_demo.pyunit_demo.TestStringMethds.test_upper" configurationId="tests" />
     </history-entry>
@@ -434,6 +485,15 @@
       <configuration name="Unittests in organizing_test_demo.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_organizing_test_demo_py - 2018.02.03 at 16h 51m 05s.xml">
+      <configuration name="Unittests in organizing_test_demo.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_organizing_test_demo_py - 2018.02.08 at 18h 58m 13s.xml">
+      <configuration name="Unittests in organizing_test_demo.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_organizing_test_demo_py - 2018.02.08 at 19h 00m 30s.xml">
+      <configuration name="Unittests in organizing_test_demo.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_organizing_test_demo_py - 2018.02.10 at 16h 19m 24s.xml">
       <configuration name="Unittests in organizing_test_demo.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_pyunit_demo_py - 2018.02.03 at 15h 34m 50s.xml">
@@ -459,18 +519,19 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19029851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20120482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22391304" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17951807" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -503,10 +564,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api_demo/http_demo.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="e#30#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_demo/organizing_test_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="64" lean-forward="true" selection-start-line="69" selection-start-column="64" selection-end-line="69" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_demo/pyunit_report_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demopa/caculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_demo/http_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
-            <element signature="e#30#41#0" expanded="true" />
+            <element signature="e#30#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -516,7 +610,7 @@
         <state relative-caret-position="1125">
           <caret line="47" column="22" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <element signature="e#20#35#0" expanded="true" />
+            <element signature="e#20#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
           <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -550,7 +643,7 @@
         <state relative-caret-position="945">
           <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
-            <element signature="e#30#41#0" expanded="true" />
+            <element signature="e#30#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -560,7 +653,7 @@
         <state relative-caret-position="1215">
           <caret line="47" column="22" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <element signature="e#20#35#0" expanded="true" />
+            <element signature="e#20#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +686,7 @@
         <state relative-caret-position="945">
           <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
-            <element signature="e#30#41#0" expanded="true" />
+            <element signature="e#30#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -604,7 +696,7 @@
         <state relative-caret-position="1215">
           <caret line="47" column="22" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="47" selection-end-column="22" />
           <folding>
-            <element signature="e#20#35#0" expanded="true" />
+            <element signature="e#20#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,13 +713,96 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1161">
           <caret line="43" column="78" lean-forward="false" selection-start-line="43" selection-start-column="78" selection-end-line="43" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demopa/qrcodes/hello.py" />
     <entry file="file://$PROJECT_DIR$/demopa/hello.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/api.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/loader.py" />
+    <entry file="file://$PROJECT_DIR$/api_demo/http_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding>
+            <element signature="e#30#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_demo/pyunit_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="47" column="22" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="e#20#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_demo.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.ini" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.ini" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini" />
+    <entry file="file://$PROJECT_DIR$/api_demo/pyunit_report_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.ini" />
+    <entry file="file://$PROJECT_DIR$/api_demo/test.html" />
+    <entry file="file://$PROJECT_DIR$/api_demo/organizing_test_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="76" lean-forward="false" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_demo/test2.py" />
+    <entry file="file://$PROJECT_DIR$/django_demo/mytest.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/test.XML" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/config.ini" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.ini" />
+    <entry file="file://$PROJECT_DIR$/django_demo/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demopa/caculate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium_demo/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mypack/mymodule.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -635,42 +810,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/api.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py" />
-    <entry file="file://$PROJECT_DIR$/api_demo/pyunit_demo.py">
+    <entry file="file://$PROJECT_DIR$/demopa/io_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="47" column="22" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="47" selection-end-column="22" />
-          <folding>
-            <element signature="e#20#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/loader.py" />
-    <entry file="file://$PROJECT_DIR$/api_demo/pyunit_report_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_demo/http_demo.py">
+    <entry file="file://$PROJECT_DIR$/demopa/qrcode_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="209">
+          <caret line="25" column="62" lean-forward="true" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawel_demo/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <element signature="e#30#41#0" expanded="true" />
+            <element signature="e#118#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_demo/organizing_test_demo.py">
+    <entry file="file://$PROJECT_DIR$/crawel_demo/demo_object.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="e#150#165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
