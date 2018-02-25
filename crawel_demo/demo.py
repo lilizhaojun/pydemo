@@ -3,8 +3,10 @@
 # @Time    : 2018/2/24 9:31
 # @Author  : lizhaojun
 # @File    : demo.py
+
 import requests
 import re
+
 #下载小说的首页
 url = 'http://jingcaiyuedu.com/book/41366.html'
 
@@ -14,6 +16,7 @@ fd = open('E:\out_content',mode='w',encoding='utf-8')
 response = requests.get(url)
 response.encoding = 'utf-8'
 html = response.text
+
 #print(html)
 #提取小说的标题
 title = re.findall(r'<meta property="og:title" content="(.*?)"/>',html)[0]
