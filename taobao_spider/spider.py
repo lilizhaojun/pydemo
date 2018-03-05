@@ -16,7 +16,9 @@ import matplotlib
 import re
 
 
-url = 'https://list.tmall.com/search_product.htm?q=python&type=p&' \
-      'spm=a220m.1000858.a2227oh.d100&from=.list.pc_1_searchbutton'
+url = 'https://s.taobao.com/search?q=python&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20180305&ie=utf8'
 response = requests.get(url)
 html = response.text
+
+content = re.findall(r'g_page_config =(.*?)g_srp_loadCss',html,re.S)[0]
+print(content)
