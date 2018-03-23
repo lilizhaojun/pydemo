@@ -27,11 +27,11 @@ class Crawel:
         for captal_num in captal_title:
             captal_num_title = captal_num[1]
             captal_num_url = 'http://www.jingcaiyuedu.com%s' % captal_num[0]
-            # print(captal_num_title,captal_num_url)
+
 
             # 下载每一章节内容
             captal_html = self.download(captal_num_url)
-            # print(captal_html)
+
 
             # 提取内容
             captal_num_article = \
@@ -41,7 +41,7 @@ class Crawel:
             captal_num_article = captal_num_article.replace(' ', '')
             captal_num_article = captal_num_article.replace('&nbsp;', '')
             captal_num_article = captal_num_article.replace('<br/>', '')
-            # print(captal_num_article)
+
 
             # 写入文件
             fd.write(captal_num_title)
