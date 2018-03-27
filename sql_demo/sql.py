@@ -27,12 +27,19 @@ def create_table():
              INCOME FLOAT)
              '''
     cursor.execute(sql)
+    return cursor,db
 
+
+def close(db):
+    db.close()
+
+
+def insert_data(cursor,db):
     # 插入数据
     sql2 = """INSERT INTO MYTABLE(FIRST_NAME,
-         LAST_NAME, AGE, SEX, INCOME)
-         VALUES ('Mac', 'Mohan', 20, 'M', 2000)"""
-    sql3 = """INSERT INTO EMPLOYEE(FIRST_NAME,LAST_NAME,AGE,SEX,INCOME)VALUES('xixi','haha',4,'M',855)"""
+             LAST_NAME, AGE, SEX, INCOME)
+             VALUES ('Mac', 'Mohan', 20, 'M', 2000)"""
+    sql3 = """INSERT INTO EMPLOYEE(FIRST_NAME,LAST_NAME,AGE,SEX,INCOME)VALUES('hehe','le',4,'M',3500)"""
     try:
         cursor.execute(sql3)
         db.commit()
@@ -42,8 +49,23 @@ def create_table():
         print('数据回滚')
         traceback.print_exc()
 
-    db.close()
+def find_data(cursor):
+    # 数据库查询操作
+    sql4 = "SELECT * FROM EMPLOYEE WHERE INCOME > '%d'" % (1000)
 
+    try:
+        cursor.execute(sql4)
+        result = cursor.fetchall()
+        for row in result:
+            fname = row[0]
+            lname = row[1]
+            age = row[2]
+            sex = row[3]
+            income = row[4]
+            print("fname = %s,lname = %s,age = %d,sex = %s,income = %d" % (fname, lname, age, sex, income))
+    except:
+        print("Error:unable to fetch data")
 
 if __name__ == '__main__':
-    create_table()
+    cursor,db = create_table()
+
